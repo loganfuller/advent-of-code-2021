@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "Helping Santa, one script at a time.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganfuller/advent-of-code-2021.git"
+  },
+  "author": "Logan Fuller <fuller.logan@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/loganfuller/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/loganfuller/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "type": "module"
+}

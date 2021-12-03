@@ -12,10 +12,5 @@
     "url": "https://github.com/loganfuller/advent-of-code-2021/issues"
   },
   "homepage": "https://github.com/loganfuller/advent-of-code-2021#readme",
-  "devDependencies": {
-    "@types/node": "^16.11.11",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.2"
-  },
   "type": "module"
 }

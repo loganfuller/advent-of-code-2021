@@ -1,10 +1,12 @@
+import { resolve, dirname } from "path";
 import { readFileSync } from "fs";
 
 const WINDOW_SIZE = 3;
 
-const inputArr = readFileSync("./input.txt").toString()
-                                            .split("\n")
-                                            .map(val => parseInt(val, 10));
+const inputArr = readFileSync(resolve(dirname(new URL(import.meta.url).pathname), "./input.txt"))
+                     .toString()
+                     .split("\n")
+                     .map(val => parseInt(val, 10));
 
 let sumsArr = [];
 for (let i = 0; (i + WINDOW_SIZE - 1) < inputArr.length; i++) {

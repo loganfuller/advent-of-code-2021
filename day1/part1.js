@@ -1,6 +1,7 @@
+import { resolve, dirname } from "path";
 import { readFileSync } from "fs";
 
-const inputArr = readFileSync("./input.txt")
+const inputArr = readFileSync(resolve(dirname(new URL(import.meta.url).pathname), "./input.txt"))
                      .toString()
                      .split("\n")
                      .map(val => parseInt(val, 10));
